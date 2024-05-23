@@ -26,11 +26,17 @@ body {
 /* Section 2 styles */
 
 /* Section 3 styles */
-
+.points-container {
+  background-color: var(--resume-blue);
+}
 /* Section 4 styles */
-
+.drinks-container {
+  background-color: var(--light-green);
+}
 /* Section 5 styles */
-
+.extras-container {
+  background-color: var(--white);
+}
 /* Section 6 styles */
 
 /* Footer Styles */
