@@ -11,7 +11,7 @@
   --green: #008248;
   --light-green: #d4e9e2;
   --coffee-brown: #f3f1e7;
-  --resume-blue: #f1f8f6;
+  --light-brown: #f1f8f6;
 }
 
 body {
@@ -27,7 +27,7 @@ body {
 
 /* Section 3 styles */
 .points-container {
-  background-color: var(--resume-blue);
+  background-color: var(--light-brown);
 }
 /* Section 4 styles */
 .drinks-container {
