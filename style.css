@@ -6,12 +6,13 @@
 
 :root {
   --white: white;
-  --black: #000000;
+  --black: #000000de;
   --dark-green: #1e3932;
   --green: #008248;
   --light-green: #d4e9e2;
   --coffee-brown: #f3f1e7;
   --light-brown: #f1f8f6;
+  --gold: #cba258;
 }
 
 body {
@@ -28,6 +29,57 @@ body {
 /* Section 3 styles */
 .points-container {
   background-color: var(--light-brown);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2rem;
+  padding-top: 2rem;
+}
+
+.points-container h2 {
+  color: var(--black);
+  font-weight: 600;
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+.numbers-container ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  column-gap: 0.5rem;
+}
+
+.numbers-container a {
+  text-decoration: none;
+  color: var(--black);
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+.numbers-container li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1rem;
+  max-width: 120px;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 50%;
+}
+.slider {
+  height: 4px;
+  background-color: var(--green);
+  width: 100%;
+  display: none;
+}
+
+.slider-display {
+  display: block;
+}
+
+.small-start {
+  color: var(--gold);
+  font-size: 0.9rem;
 }
 /* Section 4 styles */
 .drinks-container {
