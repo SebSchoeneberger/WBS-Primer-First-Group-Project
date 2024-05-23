@@ -189,7 +189,68 @@ header button {
 /* Section 5 styles */
 .extras-container {
   background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-block: 5rem;
+  row-gap: 1rem;
 }
+
+.extras-container h2 {
+  color: var(--black);
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.extras-container p {
+  color: var(--black);
+  max-width: 80ch;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.extras-options {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 2rem;
+}
+
+.extras-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 0.8rem;
+}
+.extras-item-pic {
+  max-width: 112px;
+  margin-top: 1.5rem;
+}
+
+.extras-item h3 {
+  color: var(--black);
+  font-weight: 600;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.extras-item p {
+  max-width: 40ch;
+  color: var(--black);
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.extras-item a {
+  color: var(--dark-green);
+  font-size: 1rem;
+  text-align: center;
+}
+
+.extras-item a:hover {
+  text-decoration: none;
+}
+
 /* Section 6 styles */
 
 /* Footer Styles */
