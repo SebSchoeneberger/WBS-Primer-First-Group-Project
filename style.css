@@ -40,11 +40,11 @@ header img {
 
 #nav_bar {
   display: flex;
-  padding-left: 3rem;
+  padding-left: 2rem;
 }
 .nav-bar {
   display: flex;
-  gap: 2rem;
+  gap: 1.7rem;
   list-style: none;
   align-items: center;
   justify-content: center;
@@ -75,7 +75,7 @@ nav button:hover {
   display: flex;
   justify-content: right;
   margin-left: auto;
-  padding-right: 4rem;
+  padding-right: 3rem;
 }
 
 .nav-sign-in {
@@ -91,6 +91,7 @@ header button {
   border-radius: 50px;
   background-color: var(--black);
   color: var(--white);
+  width: 80px;
 }
 
 /* Section 1 styles */
@@ -114,9 +115,10 @@ header button {
   /* height: 800px; */
   width: auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding-left: 3rem;
+  /* padding-left: 3rem; */
+  column-gap: 10rem;
   flex-wrap: wrap;
   padding: 10rem 5rem;
 }
@@ -157,14 +159,13 @@ header button {
 }
 
 .img-first-section {
-  display: flex;
-  padding-right: 5rem;
+  padding-top: 2rem;
   /* height: 60%; */
 }
 
 .img-first-section img {
-
-
+  height: auto;
+  max-width: 100%;
 }
 /* Section 2 styles */
 
@@ -207,7 +208,7 @@ header button {
   text-align: center;
   font-size: 1rem;
   max-width: 50ch;
-  padding-left: 2rem;
+  padding-left: 1.5rem;
   padding-right: 2rem;
   font-weight: 400;
 }
