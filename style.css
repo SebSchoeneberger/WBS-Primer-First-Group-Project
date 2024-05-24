@@ -29,7 +29,8 @@ header {
   gap: 1rem;
   padding: 0.8rem;
   margin: auto;
-  /* height: 105px; */
+  width: auto;
+  flex-wrap: wrap;
 }
 
 header img {
@@ -74,7 +75,7 @@ nav button:hover {
   display: flex;
   justify-content: right;
   margin-left: auto;
-  padding-right: 6rem;
+  padding-right: 4rem;
 }
 
 .nav-sign-in {
@@ -96,11 +97,11 @@ header button {
 
 .page-bar {
   background-color: var(--black);
-  height: 50px;
+  /* height: 50px; */
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  padding-left: 5rem;
+  padding: 1rem 5rem;
 }
 
 .page-bar h4 {
@@ -110,12 +111,14 @@ header button {
 
 .join-now-section {
   background-color: var(--alto);
-  height: 800px;
+  /* height: 800px; */
   width: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-left: 3rem;
+  flex-wrap: wrap;
+  padding: 10rem 5rem;
 }
 
 .join-now-text h2 {
@@ -155,14 +158,19 @@ header button {
 
 .img-first-section {
   display: flex;
-  padding-right: 2rem;
-  height: 60%;
+  padding-right: 5rem;
+  /* height: 60%; */
 }
 
+.img-first-section img {
+
+
+}
 /* Section 2 styles */
 
 .getting-started-section {
-  height: 500px;
+  /* height: 500px; */
+  flex-wrap: wrap;
 }
 
 .getting-started-text {
