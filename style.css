@@ -5,14 +5,15 @@
 }
 
 :root {
-  --white: white;
-  --black: #000000de;
-  --dark-green: #1e3932;
-  --green: #008248;
-  --light-green: #d4e9e2;
-  --coffee-brown: #f3f1e7;
-  --light-brown: #f1f8f6;
-  --gold: #cba258;
+  --alto: #d9d9d9;
+  --wild-sand: #f6f5f5;
+  --bridal-heath: #fffaf0;
+  --web-orange: #ffa800;
+  --tundora: #474141;
+
+  --fuel-yellow: #eaa72c;
+  --white: #ffffff;
+  --black: #000000;
 }
 
 body {
@@ -108,16 +109,16 @@ header button {
 
 /* Section 3 styles */
 .points-container {
-  background-color: var(--light-brown);
+  background-color: var(--wild-sand);
   display: flex;
   flex-direction: column;
-  align-items: center;
+
   row-gap: 2rem;
   padding-top: 2rem;
 }
 
 .points-container h2 {
-  color: var(--black);
+  color: var(--tundora);
   font-weight: 600;
   font-size: 2.4rem;
   text-align: center;
@@ -132,7 +133,7 @@ header button {
 
 .numbers-container a {
   text-decoration: none;
-  color: var(--black);
+  color: var(--tundora);
   font-weight: 600;
   font-size: 1.4rem;
 }
@@ -142,13 +143,11 @@ header button {
   align-items: center;
   row-gap: 1rem;
   max-width: 120px;
-  flex-grow: 1;
-  flex-shrink: 0;
-  flex-basis: 50%;
+  flex: 1;
 }
 .slider {
   height: 4px;
-  background-color: var(--green);
+  background-color: var(--web-orange);
   width: 100%;
   display: none;
 }
@@ -158,12 +157,12 @@ header button {
 }
 
 .small-start {
-  color: var(--gold);
+  color: var(--fuel-yellow);
   font-size: 0.9rem;
 }
 /* Section 4 styles */
 .drinks-container {
-  background-color: var(--light-green);
+  background-color: var(--alto);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -175,20 +174,20 @@ header button {
 }
 
 .drink-options-info h2 {
-  color: var(--black);
+  color: var(--tundora);
   font-size: 1.5rem;
   font-weight: 600;
 }
 .drink-options-info p {
   max-width: 40ch;
   margin-top: 1rem;
-  color: var(--black);
+  color: var(--tundora);
   font-size: 1rem;
   font-weight: 400;
 }
 /* Section 5 styles */
 .extras-container {
-  background-color: var(--white);
+  background-color: var(--bridal-heath);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -197,13 +196,13 @@ header button {
 }
 
 .extras-container h2 {
-  color: var(--black);
+  color: var(--tundora);
   text-align: center;
   font-size: 1.5rem;
   font-weight: 600;
 }
 .extras-container p {
-  color: var(--black);
+  color: var(--tundora);
   max-width: 80ch;
   text-align: center;
   font-size: 1rem;
@@ -225,24 +224,25 @@ header button {
 .extras-item-pic {
   max-width: 112px;
   margin-top: 1.5rem;
+  border-radius: 50%;
 }
 
 .extras-item h3 {
-  color: var(--black);
+  color: var(--tundora);
   font-weight: 600;
   font-size: 1.2rem;
   text-align: center;
 }
 .extras-item p {
   max-width: 40ch;
-  color: var(--black);
+  color: var(--tundora);
   font-size: 1rem;
   font-weight: 400;
   text-align: center;
 }
 
 .extras-item a {
-  color: var(--dark-green);
+  color: var(--web-orange);
   font-size: 1rem;
   text-align: center;
 }
