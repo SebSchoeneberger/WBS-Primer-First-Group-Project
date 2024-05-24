@@ -565,6 +565,22 @@ header button {
 
 /* Footer Styles */
 
+.footer-nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: calc(100% - 10px);
+  max-width: 400px;
+
+}
+
+footer {
+  padding: 40px 20px;
+  color: white;
+  background: black;
+}
+
+
 /* Media Query Styles */
 
 @media only screen and (width < 550px) {
