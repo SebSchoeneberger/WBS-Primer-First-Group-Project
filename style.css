@@ -122,7 +122,7 @@ header button {
 }
 
 .join-now-text h2 {
-  text-align:center;
+  text-align: center;
   font-size: 2rem;
   width: 20rem;
   padding-bottom: 1rem;
@@ -163,8 +163,6 @@ header button {
 }
 
 .img-first-section img {
-
-
 }
 /* Section 2 styles */
 
@@ -382,9 +380,8 @@ header button {
 /* Introduction to the section on devices */
 .our_devices {
   padding: 0;
-    list-style: none;
-    display: flex;
-
+  list-style: none;
+  display: flex;
 }
 
 .devices {
@@ -392,7 +389,6 @@ header button {
   display: flex;
   align-items: flex-start;
   margin-bottom: 40px;
-
 }
 
 .space {
@@ -402,13 +398,12 @@ header button {
 /* Devices section */
 .image_phone {
   max-width: 70px;
-  margin-top: 1.5rem ;
+  margin-top: 1.5rem;
 }
 
 .image_tablet {
   max-width: 150px;
-  margin-top: 1.5rem ;
-
+  margin-top: 1.5rem;
 }
 
 .mobile {
@@ -416,7 +411,6 @@ header button {
   list-style: none;
   display: flex;
   align-items: center;
-
 }
 
 .phone_pic {
@@ -427,8 +421,7 @@ header button {
   margin-right: 2%;
 }
 
-.image_phone
- {
+.image_phone {
   margin-right: 3%;
 }
 
@@ -437,7 +430,6 @@ header button {
   list-style: none;
   display: flex;
   align-items: center;
-
 }
 
 .tablet_pic {
@@ -446,20 +438,17 @@ header button {
   align-items: flex-start;
   margin-bottom: 40px;
   margin-left: 4%;
-
 }
 
 .image_tablet {
   margin-right: 3%;
-  
 }
 
 /* Introduction to the section on social media  */
 .our_socials {
   padding: 0;
-    list-style: none;
-    display: flex;
-
+  list-style: none;
+  display: flex;
 }
 
 .socials {
@@ -467,7 +456,6 @@ header button {
   display: flex;
   align-items: flex-start;
   margin-bottom: 40px;
-
 }
 
 .space {
@@ -480,7 +468,6 @@ header button {
   list-style: none;
   display: flex;
   align-items: center;
-
 }
 
 .photo_pic {
@@ -491,8 +478,7 @@ header button {
   margin-right: 2%;
 }
 
-.image_photo
- {
+.image_photo {
   margin-right: 3%;
 }
 
@@ -501,7 +487,6 @@ header button {
   list-style: none;
   display: flex;
   align-items: center;
-
 }
 
 .podcast_pic {
@@ -510,20 +495,17 @@ header button {
   align-items: flex-start;
   margin-bottom: 40px;
   margin-left: 4%;
-
 }
 
 .image_podcast {
   margin-right: 3%;
-
 }
 
 /* Introduction to the section on events */
 .our_events {
   padding: 0;
-    list-style: none;
-    display: flex;
-
+  list-style: none;
+  display: flex;
 }
 
 .events {
@@ -531,7 +513,6 @@ header button {
   display: flex;
   align-items: flex-start;
   margin-bottom: 40px;
-
 }
 
 .space {
@@ -544,7 +525,6 @@ header button {
   list-style: none;
   display: flex;
   align-items: center;
-
 }
 
 .people_pic {
@@ -555,12 +535,13 @@ header button {
   margin-right: 2%;
 }
 
-.image_people
- {
+.image_people {
   margin-right: 3%;
 }
 
-
+.container-new {
+  flex-flow: row wrap;
+}
 
 /* Footer Styles */
 
