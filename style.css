@@ -344,6 +344,200 @@ header button {
 
 /* Section 6 styles */
 
+/* The beginning of the section with all the information */
+.platform {
+  text-align: center;
+  font-size: xx-large;
+  margin-top: 1%;
+}
+
+.info {
+  text-align: center;
+  margin-top: 1%;
+  margin-bottom: 3%;
+}
+
+/* Introduction to the section on devices */
+.our_devices {
+  padding: 0;
+    list-style: none;
+    display: flex;
+
+}
+
+.devices {
+  flex-basis: 50%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 40px;
+
+}
+
+.space {
+  margin-top: 2%;
+}
+
+/* Devices section */
+.image_phone {
+  max-width: 70px;
+  margin-top: 1.5rem ;
+}
+
+.image_tablet {
+  max-width: 150px;
+  margin-top: 1.5rem ;
+
+}
+
+.mobile {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+
+}
+
+.phone_pic {
+  flex-basis: 50%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 40px;
+  margin-right: 2%;
+}
+
+.image_phone
+ {
+  margin-right: 3%;
+}
+
+.tablet {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+
+}
+
+.tablet_pic {
+  flex-basis: 50%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 40px;
+  margin-left: 4%;
+
+}
+
+.image_tablet {
+  margin-right: 3%;
+  
+}
+
+/* Introduction to the section on social media  */
+.our_socials {
+  padding: 0;
+    list-style: none;
+    display: flex;
+
+}
+
+.socials {
+  flex-basis: 50%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 40px;
+
+}
+
+.space {
+  margin-top: 2%;
+}
+
+/* Social media section */
+.photos {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+
+}
+
+.photo_pic {
+  flex-basis: 50%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 40px;
+  margin-right: 2%;
+}
+
+.image_photo
+ {
+  margin-right: 3%;
+}
+
+.podcast {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+
+}
+
+.podcast_pic {
+  flex-basis: 50%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 40px;
+  margin-left: 4%;
+
+}
+
+.image_podcast {
+  margin-right: 3%;
+
+}
+
+/* Introduction to the section on events */
+.our_events {
+  padding: 0;
+    list-style: none;
+    display: flex;
+
+}
+
+.events {
+  flex-basis: 50%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 40px;
+
+}
+
+.space {
+  margin-top: 2%;
+}
+
+/* Events section */
+.people {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+
+}
+
+.people_pic {
+  flex-basis: 50%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 40px;
+  margin-right: 2%;
+}
+
+.image_people
+ {
+  margin-right: 3%;
+}
+
 
 /* Footer Styles */
 
