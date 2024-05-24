@@ -164,11 +164,8 @@ header button {
 }
 
 .img-first-section img {
-
-
   height: auto;
   max-width: 100%;
-
 }
 /* Section 2 styles */
 
@@ -557,15 +554,17 @@ header button {
   justify-content: space-between;
   width: calc(100% - 10px);
   max-width: 400px;
-
 }
 
 footer {
   padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: white;
   background: black;
+  text-align: center;
 }
-
 
 /* Media Query Styles */
 
