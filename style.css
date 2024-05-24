@@ -207,7 +207,7 @@ header button {
 .espresso-pic {
   max-width: 350px;
   border-radius: 50%;
-  outline: 5px solid var(--web-orange);
+  outline: 4px solid var(--tundora);
 }
 
 .drink-options-info h2 {
@@ -262,6 +262,7 @@ header button {
   max-width: 112px;
   margin-top: 1.5rem;
   border-radius: 50%;
+  outline: 3px solid var(--tundora);
 }
 
 .extras-item h3 {
