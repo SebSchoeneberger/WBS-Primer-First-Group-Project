@@ -17,7 +17,8 @@
 }
 
 body {
-  font-family: "League Gothic", sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 /* Header Styles */
@@ -105,7 +106,7 @@ header button {
   height: 800px;
   width: auto;
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   align-items: center;
   padding-left: 3rem;
 }
@@ -122,7 +123,7 @@ header button {
   padding-bottom: 1rem;
   text-align: center;
   font-weight: bold;
-  padding-top: 1rem
+  padding-top: 1rem;
 }
 
 .btn {
@@ -147,6 +148,7 @@ header button {
 }
 
 /* Section 2 styles */
+
 
 .getting-started-section {
   height: 500px;
@@ -191,7 +193,9 @@ header button {
   font-weight: 400;
 
 }
-/* Section 3 styles */
+
+/* Section 3 styles - Points section */
+
 .points-container {
   background-color: var(--wild-sand);
   display: flex;
@@ -244,33 +248,35 @@ header button {
   color: var(--fuel-yellow);
   font-size: 0.9rem;
 }
-/* Section 4 styles */
-.drinks-container {
+/* Section 4 styles - Train your mind Section */
+.train-mind-container {
   background-color: var(--alto);
   display: flex;
   align-items: center;
   justify-content: center;
   column-gap: 5rem;
-  padding-block: 2rem;
+  padding-block: 4rem;
 }
-.espresso-pic {
-  max-width: 375px;
+.train-your-mind-pic {
+  max-width: 350px;
+  border-radius: 50%;
+  outline: 4px solid var(--tundora);
 }
 
-.drink-options-info h2 {
+.train-your-mind-info h2 {
   color: var(--tundora);
   font-size: 1.5rem;
   font-weight: 600;
 }
-.drink-options-info p {
+.train-your-mind-info p {
   max-width: 40ch;
   margin-top: 1rem;
   color: var(--tundora);
   font-size: 1rem;
   font-weight: 400;
 }
-/* Section 5 styles */
-.extras-container {
+/* Section 5 styles - Unlock Your Full Potential with Coding Gym */
+.unlock-container {
   background-color: var(--bridal-heath);
   display: flex;
   flex-direction: column;
@@ -279,45 +285,46 @@ header button {
   row-gap: 1rem;
 }
 
-.extras-container h2 {
+.unlock-container h2 {
   color: var(--tundora);
   text-align: center;
   font-size: 1.5rem;
   font-weight: 600;
 }
-.extras-container p {
+.unlock-container p {
   color: var(--tundora);
   max-width: 80ch;
   text-align: center;
   font-size: 1rem;
   font-weight: 400;
 }
-.extras-options {
+.unlock-options {
   display: flex;
   align-items: center;
   justify-content: center;
   column-gap: 2rem;
 }
 
-.extras-item {
+.unlock-item {
   display: flex;
   flex-direction: column;
   align-items: center;
   row-gap: 0.8rem;
 }
-.extras-item-pic {
+.unlock-item-pic {
   max-width: 112px;
   margin-top: 1.5rem;
   border-radius: 50%;
+  outline: 3px solid var(--tundora);
 }
 
-.extras-item h3 {
+.unlock-item h3 {
   color: var(--tundora);
   font-weight: 600;
   font-size: 1.2rem;
   text-align: center;
 }
-.extras-item p {
+.unlock-item p {
   max-width: 40ch;
   color: var(--tundora);
   font-size: 1rem;
@@ -325,13 +332,13 @@ header button {
   text-align: center;
 }
 
-.extras-item a {
+.unlock-item a {
   color: var(--web-orange);
   font-size: 1rem;
   text-align: center;
 }
 
-.extras-item a:hover {
+.unlock-item a:hover {
   text-decoration: none;
 }
 
